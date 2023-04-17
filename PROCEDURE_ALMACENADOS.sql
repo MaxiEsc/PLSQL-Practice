@@ -93,8 +93,11 @@ execute ingresoemple('25656589','Emilio', 'Perez');
 --EXECUTE ingresoemple('25656589','Emilio', 'Perez');
 --EXECUTE ingresoemple('2565694','Miliano', 'Gomez');
 --EXECUTE ingresoemple('269559','Santiago', 'Verde');
-EXECUTE ingresoemple('2579189','Vecino', 'Surzo');
-EXECUTE ingresoemple('2565111','Cocinio', 'Concha');
+--EXECUTE ingresoemple('2579189','Vecino', 'Surzo');
+--EXECUTE ingresoemple('2565111','Cocinio', 'Concha');
 
 --Leer datos
 SELECT * FROM empleados;
+
+--Eliminar procedure como siempre
+DROP PROCEDURE ingresoemple;
